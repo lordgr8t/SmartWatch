@@ -1,12 +1,76 @@
 html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+	font-family: 'Roboto', sans-serif;
 }
 
+a{
+	color: #000;
+	text-decoration: none;
+}
+body{
+	background-color: #f0eeee;
+}
+/*header*/
+
+.header {
+	
+}
+.headercontent {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.headercontent_upside {
+	height: 80px;
+	font-size: 14px;
+}
+.headernav {
+	padding-top: 2.5%;	
+}
+.logonav{
+	position: relative;
+	top: -20%;
+}
+ul{
+	list-style: none;
+
+}
+li+li{
+	margin-left: 80px;
+}
+.underline {
+	max-width: 1170px;
+	height: 1px;
+	background-color: #c8c8c8;
+	margin-top: 1%;
+}
+.header_watch {
+	text-align: center;
+}
+.hw_titile {
+	margin: 94px 0 31px 0;
+	font-weight: 500;
+	font-size: 72px;
+}
+.hw_undertitle {
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.hw_btn a{
+	color: #3589d0;
+	padding: 4px 20px;
+	border: solid 1px #3589d0;
+	border-radius: 3.5px;
+	width: 130px;
+	margin: 0 auto;
+}
+.mainimgwatchs {
+	margin-top: 30px;
+}
