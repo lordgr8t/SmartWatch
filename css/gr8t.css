@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.dflex{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.jcsb{
+	justify-content: space-between;
+}
+.jcc{
+	justify-content: center;
+}
+.d_none{
+	display: none;
+}
+.d_block{
+	display: block;
+}
+.black{
+	color: #000;
+}
+.white{
+	color: #e5e5e5;
+}
+.gray{
+	color: #676767;
+}
+.m0a{
+	margin: 0 auto;
+}
+.tdu{
+	text-decoration: underline;
+}
+.ttu{
+	text-transform: uppercase;
+}
+.lsn{
+	list-style: none;
+}
+.pos_r{
+	position: relative;
+}
+.pos_a{
+	position: absolute;
+}
